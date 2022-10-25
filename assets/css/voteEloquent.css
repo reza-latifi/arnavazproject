@@ -1,0 +1,68 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --PersianBlue       : #1c39bb;
+    --MediumPersianBlue : #0067a5;
+    --PersianIndigo     : #32127a;
+    --PersianPink       : #f77fbe;
+    --PersianRose       : #fe28a2;
+    --PersianRed        : #c81d11;
+    --PersianGreen      : #00a693;
+    --PersianOrange     : #d99058;
+    --PersianPlum       : #701c1c;
+}
+
+body{
+    background-image: url('../img/header-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-banner {
+    background-color: var(--PersianGreen);
+}
+
+.avatar {
+    border: 3px solid var(--PersianOrange);
+    max-width: 150px;
+}
+
+.section {
+    padding: 0;
+}
+
+.section{
+    background-color: transparent;
+}
+
+.start-contrib-button, .start-contrib-button:focus, .start-contrib-button:hover{
+    color: white;
+    font-size: x-large;
+}
+
+#notice-container{
+    display: none;
+}
+
+.votedown, .votedown:hover{
+    background-color: var(--PersianRed);
+    opacity: 1;
+    color: white;
+}
+
+.voteup, .voteup:hover{
+    background-color: var(--PersianGreen);
+    opacity: 1;
+    color: white;
+}
+
+.sentence-ineloquent{
+    background-color: var(--MediumPersianBlue);
+}
+
+.sentence-eloquent{
+    background-color: var(--MediumPersianBlue);
+}
